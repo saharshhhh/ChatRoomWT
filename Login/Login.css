@@ -1,0 +1,44 @@
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('C:/Users/pabat/OneDrive/Desktop/Chat Room/chat.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-position: center; 
+    background:linear-gradient(to left, rgb(238, 91, 91), rgb(8, 8, 44));
+    
+}
+.container{
+    margin-top: 0%;
+}
+.login-box {
+    margin: auto;
+    justify-content: center;
+    padding-left: 500px;
+    max-width: 400px;
+    width: 100%;
+    background: rgb(5, 125, 117); 
+    padding: 20px;
+    border-radius: 10px;
+    color: white; 
+}
+
+button {
+    width: 100%;
+    padding: 0.5rem;
+    background-color: rgb(17, 47, 39);
+    border: none;
+    border-radius: 5px;
+    color: #ffffff; /* Text color on the button */
+    font-weight: bold;
+}
+
+h1 {
+    margin-top: 0%;
+    background-color: black;
+    color: rgb(8, 87, 58); 
+}
