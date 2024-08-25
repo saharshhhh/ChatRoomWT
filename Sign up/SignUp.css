@@ -4,12 +4,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    /*background-image: url('C:/Users/pabat/OneDrive/Desktop/Chat Room/chat.jpg');*/ 
-    background-size: cover; 
-    background-repeat: no-repeat; 
-    background-attachment: fixed; 
-    background-position: center; 
-    background:linear-gradient(to left, rgb(238, 91, 91), rgb(8, 8, 44));
+    background-image: url("../Image/stacked-waves-haikei.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 .container{
     margin-top: 0%;
@@ -20,25 +17,39 @@ body {
     padding-left: 500px;
     max-width: 400px;
     width: 100%;
-    background: rgb(2, 135, 117); 
+    background: #397FD8D4; 
     padding: 20px;
     border-radius: 10px;
     color: white; 
 }
 
-button {
+
+.btn-1{
     width: 100%;
     padding: 0.5rem;
-    background-color: rgb(17, 47, 39);
-    border: none;
-    border-radius: 5px;
-    color: #ffffff; /* Text color on the button */
-    font-weight: bold;
+    background-color: #397FD8D4;
+    border: black 1.5px solid; 
+    border-radius: 5%;
 }
-
+.btn-1:hover{
+    background-color:  rgb(8, 100, 137);
+}
 
 h1 {
     margin-top: 0%;
     background-color: black;
     color: rgb(8, 87, 58); 
+}
+.text-1{
+    padding-left: 60px;
+    color:aqua;
+}
+.anchor-1{
+    padding-left: 10px;
+    text-decoration: none;
+    color:#ffffff;
+}
+.anchor-1:hover{
+    text-decoration: none;
+    color:pink;
 }
